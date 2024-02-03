@@ -17,10 +17,10 @@ for viewing the library.
 
 _Beep codes:_
 
-low beep :  SD card inserted or removed
-medium beep : SD card successfully mounted
-high beep : copying photos, repeats every two seconds while card is mounted.
+- low beep :  SD card inserted or removed
+- medium beep : SD card successfully mounted
+- high beep : copying photos, repeats every two seconds while card is mounted.
 
-3 very high beeps : error mounting SD card; will retry twice (nine beeps total)
+- 3 very high beeps : error mounting SD card; will retry twice (nine beeps total)
 
 
