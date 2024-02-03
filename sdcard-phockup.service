@@ -1,0 +1,9 @@
+[Unit]
+Description=SD Card Monitor Service mounts card on insert and runs phockup to copy photos, with beeps
+
+[Service]
+ExecStart=/usr/local/bin/sd-phockup.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
