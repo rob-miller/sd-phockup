@@ -7,6 +7,8 @@ when a card is inserted.  Phockup copies and organizes photos by year, month, da
 
 _You will need to edit the script to configure your own source, destination and log directories._
 
+I had to add root to the `pulse` group to enable root to use the `speaker-test` command (and thus make the beeps).
+
 While phockup is running, beeps every two seconds.
 
 When phockup is finished, the SD card is unmounted.
